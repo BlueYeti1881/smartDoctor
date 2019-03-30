@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout">
+
+
+        <ImageView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#000000"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nav_menu_heade"/>
+
+
+        <RelativeLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_cover_image"
+            android:background="#eb0772ca"
+            android:elevation="2dp"
+            android:paddingBottom="2dp">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:text="Sagar Rawal"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/quote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Don't Cry cuz it's over, Smile cuz it happen"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/quote"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Jumla, Nepal"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/profile"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/header_cover_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-130dp"
+            android:scaleType="centerCrop"
+            android:elevation="8dp"
+            android:padding="20dp"
+            android:src="@drawable/passport" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/education"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:clickable="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/profile_layout"
+                android:text="MSC Physics "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:autoLink="phone"
+                android:clickable="true"
+                android:textColor="#000"
+
+                android:layout_below="@+id/education"
+                android:text="9868336847 "
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/phone"
+                android:autoLink="email"
+                android:textColor="#000"
+                android:text="searchbbc1881@gmail.com "
+                android:typeface="sans"
+                android:inputType="textEmailAddress"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:textColor="#000"
+                android:layout_centerHorizontal="true"
+                android:autoLink="web"
+                android:inputType="textUri"
+                android:text="https://www.facebook.com/groups/nayasoch/"
+                android:layout_below="@+id/email"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/playstore"
+                android:layout_width="wrap_content"
+                android:autoLink="web"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:clickable="true"
+                android:text="https://www.youtube.com/channel/UCMSVH2cijOaLiNQ9LZyGhBw?view_as=subscriber  "
+                android:inputType="textUri"
+                android:layout_below="@+id/facebook"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/github"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:layout_below="@+id/playstore"
+                android:text="https://play.google.com/store/apps/developer?id=Sagar%20Rawal"
+                android:autoLink="web"
+                android:layout_centerHorizontal="true"
+                android:inputType="textUri"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="8dp" />
+    </RelativeLayout>
+    </ScrollView>

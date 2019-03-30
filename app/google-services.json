@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "768248857507",
+    "firebase_url": "https://smartdoctor-9836e.firebaseio.com",
+    "project_id": "smartdoctor-9836e",
+    "storage_bucket": "smartdoctor-9836e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768248857507:android:78f0a98cdd34d93a",
+        "android_client_info": {
+          "package_name": "com.nepalpolice.smartdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768248857507-gd2edd1dnr414ttdcoa8nbiqdkjjgm3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVzmmkP5A1tzHau9PO8T8Xd0S5rDlmvpY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
